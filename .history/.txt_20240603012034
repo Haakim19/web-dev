@@ -1,0 +1,6 @@
+INSERT INTO users (firstname, lastname, email, pwd) VALUES ('haakim', 'ahamed', 'haakimahamed4@gmail.com', 'haakimaj');
+SELECT (column name) FROM (table name) WHERE (stecific user detail for finding the details from the column).
+        Eg [SELECT firstname, lastname, email FROM users WHERE id = 3;]
+for select every thing in the row 
+        SELECT * FROM (tabel name) WHERE (stecific user detail for finding the details from the column).
+        Eg [SELECT * FROM users WHERE id = 3;]

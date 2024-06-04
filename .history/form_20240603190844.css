@@ -1,0 +1,78 @@
+/* Body Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+  padding: 20px;
+  background-image: url(https://th.bing.com/th/id/R.28a58794497d19bc0030c1e7e443ea63?rik=kVSmAt8bN6oklQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2f4%2f8%2f643031.jpg&ehk=xA2Dd%2bKN9jmU4Agb3WqBzEgbbGBhgVHbpWOmeXYZDMo%3d&risl=&pid=ImgRaw&r=0);
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Optional: Set minimum container height */
+}
+
+img {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Form Labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style form elements */
+input[type="fname"],
+input[type="lname"],
+input[type="email"],
+input[type="date"] ,
+input[type="password"]{
+  width: 50%; /* Make inputs full width */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Style buttons */
+input[type="submit"],
+input[type="reset"] {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px; /* Add space after inputs */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: rgb(152, 213, 160);
+}
+
+/* Error message styling (optional) */
+.error {
+  color: red;
+  font-size: smaller;
+  margin-bottom: 5px;
+}

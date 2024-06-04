@@ -1,0 +1,18 @@
+INSERT INTO users (firstname, lastname, email, pwd) VALUES ('haakim', 'ahamed', 'haakimahamed4@gmail.com', 'haakimaj');
+SELECT (column name) FROM (table name) WHERE (stecific user detail for finding the details from the column).
+        Eg [SELECT firstname, lastname, email FROM users WHERE id = 3;]
+for select every thing in the row 
+        SELECT * FROM (tabel name) WHERE (stecific user detail for finding the details from the column).
+        Eg [SELECT * FROM users WHERE id = 3;]
+
+get the information from more than one table
+        SELECT table 01/02(or more) name.column name, table 01/02(or more) name.column name FROM (tabel name 01) INNER JOIN (tabel name 02) ON (tabel 01 specific column name) = (table 02 specific column name);
+        Eg [SELECT * FROM users INNER JOIN comments ON users.id = comments.users_id;]
+        this will give all the details from the tabel that we gave. 
+
+
+
+get the information from more than one table
+        SELECT * FROM (tabel name 01) INNER JOIN (tabel name 02) ON (tabel 01 specific column name) = (table 02 specific column name);
+        Eg [SELECT * FROM users INNER JOIN comments ON users.id = comments.users_id;]
+        this will give all the details from the tabel that we gave. 
