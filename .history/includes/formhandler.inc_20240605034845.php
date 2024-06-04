@@ -16,13 +16,12 @@ if ($mysqli->connect_error) {
 // Prepare and execute the SQL query to insert data into the table
 $query = "INSERT INTO users(firstname, lastname, email, pwd) VALUES (?, ?, ?,?)";
 $stmt = $mysqli->prepare($query);
-$stmt->bind_param('sss', $value1, $value2, $value3, $value4);
+$stmt->bind_param('sss', $value1, $value2, $value3);
 
 // Set the values for the parameters
 $value1 = 'Value 1';
 $value2 = 'Value 2';
 $value3 = 'Value 3';
-$value4 = 'Value 4';
 
 // Execute the query
 if ($stmt->execute()) {
