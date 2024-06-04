@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $servername = "localhost";
     $dbname = "formdatabase";
+
     $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 
     if ($conn->connect_error) {
