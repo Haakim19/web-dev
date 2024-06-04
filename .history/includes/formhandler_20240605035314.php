@@ -19,10 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (firstName, lastName, email, pwd) VALUES ('$fname', '$lname', '$email', '$pwd')";
 
     if ($conn->query($sql) === TRUE) {
+        header("location: ../form.php");
         echo "Data inserted successfully";
-       
-       
-        
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

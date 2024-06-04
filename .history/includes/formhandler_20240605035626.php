@@ -20,8 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn->query($sql) === TRUE) {
         echo "Data inserted successfully";
-       
-       
+        header("location: ../form.php");
         
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
