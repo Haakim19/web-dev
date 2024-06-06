@@ -1,0 +1,21 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Courier, monospace;
+    margin: 10px;
+    padding: 10px;
+}
+
+.centerd_element{
+    display: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.username{
+    display: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+}
