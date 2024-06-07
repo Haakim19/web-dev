@@ -26,19 +26,19 @@ body{
     align-items: center;
 }
 
-.countrySelection {
+.option {
     position: relative; /*  Needed for proper option positioning */
     display: inline-block; /*  Optional for horizontal layout */
   }
   
-  .countrySelection-button {
+  .option-button {
     background-color: #ccc;
     padding: 10px 16px;
     border: none;
     cursor: pointer; /*  Shows hand cursor on hover */
   }
   
-  .countrySelection-content {
+  .option-content {
     display: none; /* Initially hide the option content */
     position: absolute;
     background-color: #f1f1f1;

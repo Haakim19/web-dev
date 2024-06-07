@@ -26,12 +26,12 @@ body{
     align-items: center;
 }
 
-.countrySelection {
+.option {
     position: relative; /*  Needed for proper option positioning */
     display: inline-block; /*  Optional for horizontal layout */
   }
   
-  .countrySelection-button {
+  .option-button {
     background-color: #ccc;
     padding: 10px 16px;
     border: none;

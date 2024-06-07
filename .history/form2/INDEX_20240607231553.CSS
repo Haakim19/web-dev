@@ -30,22 +30,9 @@ body{
     position: relative; /*  Needed for proper option positioning */
     display: inline-block; /*  Optional for horizontal layout */
   }
+ 
   
-  .countrySelection-button {
-    background-color: #ccc;
-    padding: 10px 16px;
-    border: none;
-    cursor: pointer; /*  Shows hand cursor on hover */
-  }
-  
-  .countrySelection-content {
-    display: none; /* Initially hide the option content */
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; /* Ensures option appears above other elements */
-  }
+ 
   
   .countrySelection-content a {
     color: black;
